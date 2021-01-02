@@ -31,13 +31,3 @@ $('.addButton').on('click', () => {
     url = "https://" + url;
   }
   console.log(url);
-  const $siteList = $(".siteList")
-  const $li = $(`<li>
-              <a href="${url}">
-                  <div class="site">
-                      <div class="logo">${url[0]}</div>
-                      <div class="link">${url}</div>
-                  </div>
-              </a>
-              </li>
-  `).insertBefore($lastLi)
