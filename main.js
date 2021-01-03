@@ -25,9 +25,3 @@ const render = () => {
 }
 render()
 
-$('.addButton').on('click', () => {
-  let url = window.prompt("请问你需要添加声明网站")
-  if (url.indexOf("http") !== 0) {
-    url = "https://" + url;
-  }
-  console.log(url);
