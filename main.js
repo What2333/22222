@@ -36,6 +36,19 @@ const render = () => {
       </div>
     </a> 
     </li>
+    <a href="${node.url}">
+    <div class="site">
+      <div class="logo">${node.logo[0]}</div>
+      <div class="link">${node.url}</div>
+    </div>
+  </a> 
+  </li> <a href="${node.url}">
+  <div class="site">
+    <div class="logo">${node.logo[0]}</div>
+    <div class="link">${node.url}</div>
+  </div>
+</a> 
+</li>
         `).insertBefore($lastLi)
   })
 }
