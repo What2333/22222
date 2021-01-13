@@ -19,16 +19,6 @@ const render = () => {
       </div>
     </a> 
     </li>
-    <li>
-                <a href="https://www.bilibili.com">
-                    <div class="site">
-                        <div class="logo">
-                            <img src="./images/bilibili.jpg" alt="">
-                        </div>
-                        <div class="link">bilibili.com</div>
-                    </div>
-                </a>
-            </li>
         `).insertBefore($lastLi)
   })
 }
